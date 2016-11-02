@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>Bookdrop</title>
+  <meta name="description" content="Share your favorite books">
+  <meta name="author" content="Andrew Udell">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="/static/css/normalize.css">
+  <link rel="stylesheet" href="/static/css/skeleton.css">
+  <link rel="stylesheet" href="/static/css/custom.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav class="mt-20">
+      <ul class="c-tab-nav">
+        <li class="c-tab-nav__tab is-active">
+          <scooter_button role="tab" aria-selected="true">Bookdrop</scooter_button>
+        </li>
+        <li class="c-tab-nav__tab">
+          <scooter_button role="tab" aria-selected="false">Profile</scooter_button>
+        </li>
+        <li class="c-tab-nav__tab">
+          <scooter_button role="tab" aria-selected="false">Settings</scooter_button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+{% block content %}{% endblock %}
+</body>
+</html>
