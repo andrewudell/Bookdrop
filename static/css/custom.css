@@ -108,7 +108,13 @@
     margin-top: -20px;
   }
 
+
+.bookrow {
+  display: flex;
+}
+
 .book {
+  flex: 1;
   position:relative;
   border: 2px solid #1787E0;
   border-radius: 4px;
